@@ -1,0 +1,53 @@
+# Site configuration
+title: "Shengze Ding"
+description: "Academic personal website - Research in Scientific Machine Learning"
+url: "https://shengzeding.github.io"
+baseurl: ""
+locale: "en-US"
+
+# Site Author
+author:
+  name: "Shengze Ding"
+  avatar: "/assets/images/my-avatar.jpg"
+  bio: "Research Assistant @ND | Undergrad @SJTU"
+  location: "Shanghai, China"
+  email: "shengzeding@sjtu.edu.cn"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:shengzeding@sjtu.edu.cn"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/shengze-ding"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/shengzeding"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/shengze_ding/"
+
+# Build settings
+markdown: kramdown
+remote_theme: academicpages/academicpages.github.io
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfile
+  - gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

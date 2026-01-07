@@ -1,44 +1,81 @@
-# vCard - Personal portfolio
+# Shengze Ding's Academic Website
 
-![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+This is my personal academic website built with Jekyll and the AcademicPages theme.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+## Features
 
-## Demo
+- 📱 **Responsive Design**: Works perfectly on all devices
+- 🌙 **Dark Mode Support**: Automatic dark mode based on system preferences
+- 📚 **Academic Focus**: Clean, professional layout for academic content
+- 🔍 **SEO Optimized**: Built-in SEO features
+- 📝 **Blog Support**: Easy to add blog posts
+- 🎨 **Customizable**: Easy to customize colors and layout
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## Local Development
 
-## Prerequisites
+### Prerequisites
 
-Before you begin, ensure you have met the following requirements:
+- Ruby 2.7 or higher
+- Bundler
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-## Installing vCard
-
-To install **vCard**, follow these steps:
-
-Linux and macOS:
+### Setup
 
 ```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+# Install dependencies
+bundle install
+
+# Run local server
+bundle exec jekyll serve
 ```
 
-Windows:
+The site will be available at `http://localhost:4000`
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+## Content Structure
+
+- `index.md` - Home page
+- `_pages/` - Additional pages (CV, Publications, Projects)
+- `_posts/` - Blog posts (if needed)
+- `assets/` - Images and other assets
+
+## Customization
+
+### Update Personal Information
+
+Edit `_config.yml` to update:
+- Site title and description
+- Author information
+- Social media links
+
+### Add New Pages
+
+Create a new markdown file in `_pages/` directory:
+
+```markdown
+---
+layout: single
+author_profile: true
+title: "Page Title"
+permalink: /page-url/
+---
+
+Your content here...
 ```
 
-## Contact
+### Add Blog Posts
 
-If you want to contact me you can reach me at [Twitter](https://www.x.com/codewithsadee_).
+Create a new markdown file in `_posts/` directory with the naming convention: `YYYY-MM-DD-title.md`
+
+## Deployment
+
+This site is automatically deployed to GitHub Pages when you push to the main branch.
 
 ## License
 
-MIT
+MIT License - See LICENSE file for details
+
+## Contact
+
+- Email: shengzeding@sjtu.edu.cn / sding@nd.edu
+- LinkedIn: [shengze-ding](https://www.linkedin.com/in/shengze-ding)
+- GitHub: [shengzeding](https://github.com/shengzeding)
+
