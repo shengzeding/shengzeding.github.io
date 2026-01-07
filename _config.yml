@@ -26,6 +26,19 @@ author:
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/shengze_ding/"
 
+# Navigation Links
+nav_links:
+  - title: "About"
+    url: "/"
+  - title: "Publications"
+    url: "/publications/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "Honors"
+    url: "/honors/"
+  - title: "CV"
+    url: "/cv/"
+
 # Build settings
 markdown: kramdown
 remote_theme: academicpages/academicpages.github.io
