@@ -1,0 +1,10 @@
+# Main navigation links
+main:
+  - title: "Publications"
+    url: /publications/
+  - title: "Projects"
+    url: /projects/
+  - title: "Honors"
+    url: /honors/
+  - title: "CV"
+    url: /cv/

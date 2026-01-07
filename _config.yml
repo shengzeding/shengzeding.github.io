@@ -8,36 +8,13 @@ locale: "en-US"
 # Site Author
 author:
   name: "Shengze Ding"
-  avatar: "/assets/images/my-avatar.jpg"
+  avatar: "my-avatar.jpg"
   bio: "Research Assistant @ND | Undergrad @SJTU"
   location: "Shanghai, China"
   email: "shengzeding@sjtu.edu.cn"
-  links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:shengzeding@sjtu.edu.cn"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/shengze-ding"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/shengzeding"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/shengze_ding/"
-
-# Navigation Links
-nav_links:
-  - title: "About"
-    url: "/"
-  - title: "Publications"
-    url: "/publications/"
-  - title: "Projects"
-    url: "/projects/"
-  - title: "Honors"
-    url: "/honors/"
-  - title: "CV"
-    url: "/cv/"
+  linkedin: "shengze-ding"
+  instagram: "shengze_ding"
+  github: "shengzeding"
 
 # Build settings
 markdown: kramdown
