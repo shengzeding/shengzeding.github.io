@@ -18,15 +18,15 @@ I am currently seeking Ph.D. opportunities to begin in Fall 2026.
 ## Education
 
 - **Shanghai Jiao Tong University** (2022 — 2026)
-  - B.En. in Energy and Power Engineering
-  - B.Sc. in Mathematics and Applied Mathematics
+  - B.E. in Energy and Power Engineering
+  - B.S. in Mathematics and Applied Mathematics
 
 ---
 
 ## Honors & Awards
 
-- **First Class Scholarship for Undergraduate Overseas Research** (1 of 5 Recipients University-wide), Shanghai Jiao Tong University, 2025
-- **Undergraduate Excellence Scholarship**, Shanghai Jiao Tong University, 2025
+- **First Class Scholarship for Undergraduate Overseas Research** (1 of 5 Recipients University-wide), Shanghai Jiao Tong University
+- **Undergraduate Excellence Scholarship**, Shanghai Jiao Tong University
 
 ---
 
