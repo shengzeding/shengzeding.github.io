@@ -33,4 +33,4 @@ I will be joining **Cornell University** for my doctoral studies in Fall 2026.
 
 ## Contact
 
-- **Email**: shengzeding@sjtu.edu.cn / sding@nd.edu
+- **Email**: shengzeding@sjtu.edu.cn
