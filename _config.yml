@@ -1,6 +1,6 @@
 # Site configuration
 title: "Shengze Ding"
-description: "Academic personal website - Research in Scientific Machine Learning"
+description: "Academic personal website"
 url: "https://shengzeding.github.io"
 baseurl: ""
 locale: "en-US"
@@ -9,7 +9,7 @@ locale: "en-US"
 author:
   name: "Shengze Ding"
   avatar: "avatar-new.jpg"
-  bio: "Undergraduate 26' @SJTU"
+  bio: "Incoming PhD @ Cornell <br> Undergraduate @ SJTU"
   location: "Shanghai, China"
   email: "shengzeding@sjtu.edu.cn"
   linkedin: "shengze-ding"
