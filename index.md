@@ -9,7 +9,7 @@ permalink: /
 
 Hello! I am a senior undergraduate student at **Shanghai Jiao Tong University**, pursuing dual degrees in engineering and mathematics. I am passionate about Scientific Machine Learning and leveraging data-driven and statistical techniques to model and understand complex physical systems.
 
-I will be joining **Cornell University** for my doctoral studies in Fall 2026.
+I will be joining **Cornell University** for my doctoral studies in Fall 2026. 
 
 ---
 
@@ -19,6 +19,6 @@ I will be joining **Cornell University** for my doctoral studies in Fall 2026.
 
 - **Shanghai Jiao Tong University** (2022 — 2026)
   - B.E. in Energy and Power Engineering
-  - B.S. in Mathematics and Applied Mathematics
+  - B.S. in Applied Mathematics
 
 
