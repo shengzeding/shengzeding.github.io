@@ -11,8 +11,14 @@
   }
 
   /* 全局衬线体 */
-  body {
+  body, p, li, span, div {
     font-family: 'Source Serif 4', serif !important;
+  }
+
+  /* 强制所有标题 (Section Names) 应用衬线体 */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Source Serif 4', serif !important;
+    font-weight: 700 !important;
   }
 
   /* 粗体部分强制应用衬线体 */
@@ -22,13 +28,12 @@
   }
 
   /* 左上角标题手写体 */
-  /* 针对您使用的模板，精准定位左上角链接 */
   .masthead__menu-item--lg a, 
   .masthead__menu-item--lg,
   .site-title a,
   .site-title {
     font-family: 'Dancing Script', cursive !important;
-    font-size: 1.5em !important; /* 调整为适合导航栏的大小，原 3.5em 可能过大导致换行 */
+    font-size: 1.5em !important; 
     font-weight: 700 !important;
     text-decoration: none !important;
   }
