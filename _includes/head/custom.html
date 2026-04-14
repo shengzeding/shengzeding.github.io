@@ -10,15 +10,34 @@
     --accent-color: #5eb3a6;
   }
 
+  /* 全局衬线体 */
   body {
-    font-family: 'Source Serif 4', serif;
+    font-family: 'Source Serif 4', serif !important;
   }
 
-  .masthead__title {
-    font-family: 'Dancing Script', cursive;
-    font-size: 3.5em; /* 调整字号 */
-    font-weight: 700; /* 加粗 */
-    /* 可以根据需要添加其他样式，例如颜色、阴影等 */
+  /* 粗体部分强制应用衬线体 */
+  strong, b {
+    font-family: 'Source Serif 4', serif !important;
+    font-weight: 700 !important;
+  }
+
+  /* 左上角标题手写体 */
+  /* 针对您使用的模板，精准定位左上角链接 */
+  .masthead__menu-item--lg a, 
+  .masthead__menu-item--lg,
+  .site-title a,
+  .site-title {
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 1.5em !important; /* 调整为适合导航栏的大小，原 3.5em 可能过大导致换行 */
+    font-weight: 700 !important;
+    text-decoration: none !important;
+  }
+
+  /* 针对移动端微调标题大小 */
+  @media (max-width: 768px) {
+    .masthead__menu-item--lg a {
+      font-size: 1.2em !important;
+    }
   }
 
   /* Dark mode - works on both desktop and mobile */
