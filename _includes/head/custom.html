@@ -3,7 +3,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
 
-<!-- Dark mode support -->
 <style>
   :root {
     --primary-color: #2c7873;
@@ -45,105 +44,11 @@
     }
   }
 
-  /* Dark mode - works on both desktop and mobile */
-  @media (prefers-color-scheme: dark) {
-    body {
-      background-color: #1e1e1e;
-      color: #e0e0e0;
-    }
-
-    a {
-      color: var(--accent-color);
-    }
-
-    a:hover {
-      color: #7ec9bc;
-    }
-
-    .masthead {
-      background-color: #2a2a2a;
-      border-bottom-color: #404040;
-    }
-
-    .page__footer {
-      background-color: #2a2a2a;
-      color: #e0e0e0;
-    }
-
-    .sidebar {
-      background-color: #2a2a2a;
-    }
-
-    .author__name {
-      color: var(--accent-color);
-    }
-
-    h1, h2, h3, h4, h5, h6 {
-      color: var(--accent-color);
-    }
-
-    code {
-      background-color: #2a2a2a;
-      color: #e0e0e0;
-    }
-
-    pre {
-      background-color: #2a2a2a;
-      border-color: #404040;
-      color: #e0e0e0;
-    }
-
-    .page__content {
-      color: #e0e0e0;
-    }
-
-    .archive__item-title {
-      color: var(--accent-color);
-    }
-
-    .toc {
-      background-color: #2a2a2a;
-      border-color: #404040;
-    }
-
-    .toc__menu a {
-      color: #e0e0e0;
-    }
-
-    .nav__list .nav__items a {
-      color: #e0e0e0;
-    }
-  }
-
   /* Smooth transitions */
   body, a, h1, h2, h3, h4, h5, h6, code, pre {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
-
-  /* Mobile-specific dark mode fixes */
-  @media (prefers-color-scheme: dark) and (max-width: 768px) {
-    body {
-      background-color: #1e1e1e !important;
-      color: #e0e0e0 !important;
-    }
-
-    .masthead,
-    .page__footer,
-    .sidebar,
-    .author__avatar,
-    .author__content {
-      background-color: #2a2a2a !important;
-    }
-
-    .page__content,
-    .page__content p,
-    .page__content li {
-      color: #e0e0e0 !important;
-    }
-  }
 </style>
-
-<!-- end custom head snippets -->
 
 <style>
   /* 移除头像的圆形裁剪、边框和阴影 */
@@ -167,3 +72,4 @@
     margin-top: 20px !important;
   }
 </style>
+<!-- end custom head snippets -->
