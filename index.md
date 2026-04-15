@@ -21,11 +21,6 @@ I will be joining **Cornell University** for my doctoral studies in Fall 2026.
   - B.E. in Energy and Power Engineering
   - B.S. in Applied Mathematics
  
----
 
-## Honors
-- Cornell Fellowship, Cornell University, 2026
-- First Class Scholarship for Undergraduate Overseas Research, SJTU, 2025
-- Undergraduate Excellence Scholarship, SJTU, 2026
 
 
