@@ -18,7 +18,7 @@ I will be joining **Cornell University** for my doctoral studies in Fall 2026.
   - Ph.D. in Mechanical Engineering
 
 - **Shanghai Jiao Tong University** (2022 — 2026)
-  - B.E. in Energy and Power Engineering
+  - B.Eng. in Energy and Power Engineering
   - B.S. in Applied Mathematics
  
 
