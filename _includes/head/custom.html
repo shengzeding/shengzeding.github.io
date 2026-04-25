@@ -9,30 +9,9 @@
     --accent-color: #5eb3a6;
   }
 
-  /* 全局衬线体与排版优化 */
+  /* 全局衬线体 */
   body, p, li, span, div {
     font-family: 'Source Serif 4', serif !important;
-    line-height: 1.7 !important; /* 增加行高 */
-  }
-
-  p {
-    margin-bottom: 1.5em !important; /* 增加段落间距 */
-  }
-
-  /* 极简链接交互效果 */
-  a {
-    text-decoration: none !important;
-    position: relative;
-    transition: color 0.3s ease !important;
-  }
-
-  .page__content a, .author__urls a {
-    border-bottom: 1px solid rgba(44, 120, 115, 0.2); /* 极细半透明下划线 */
-  }
-
-  .page__content a:hover, .author__urls a:hover {
-    color: var(--accent-color) !important;
-    border-bottom-color: var(--accent-color); /* 悬停时下划线变实 */
   }
 
   /* 强制所有标题 (Section Names) 应用衬线体 */
@@ -65,7 +44,7 @@
     }
   }
 
-  /* Smooth transitions */
+  /* Smooth transitions - 保留平滑过渡效果 */
   body, a, h1, h2, h3, h4, h5, h6, code, pre {
     transition: background-color 0.3s ease, color 0.3s ease;
   }
