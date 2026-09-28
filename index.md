@@ -7,11 +7,13 @@ permalink: /
 
 ## Welcome
 
-Hello! I am a senior undergraduate student at **Shanghai Jiao Tong University**, pursuing dual degrees in engineering and mathematics. I am passionate about Scientific Machine Learning and leveraging data-driven and statistical techniques to model and understand complex physical systems. 
+I am a first year PhD student in the **Sibley School of Mechanical and Aerospace Engineering at Cornell University**.
 
-I will be joining **Sibley School of Mechanical and Aerospace Engineering, Cornell University** for my doctoral studies in Fall 2026. 
+My research focuses on **scientific machine learning and computational methods for complex physical systems**. I am particularly interested in developing **data-driven and statistical learning methods**, and in integrating them with **physics-based models, numerical solvers, and differentiable simulation**.
 
+My interests span applications in **fluid, energy, and biomedical systems**.
 
+Prior to joining Cornell, I completed my undergraduate studies at **Shanghai Jiao Tong University**, where I pursued dual degrees in engineering and mathematics.
 
 
 
