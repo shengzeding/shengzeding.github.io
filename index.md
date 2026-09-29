@@ -1,6 +1,6 @@
 ---
-layout: single
-author_profile: true
+layout: home
+author_profile: false
 title: ""
 permalink: /
 ---
@@ -19,6 +19,5 @@ Prior to joining Cornell, I completed my undergraduate training at **Shanghai Ji
 
 
  
-
 
 

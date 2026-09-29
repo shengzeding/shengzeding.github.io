@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="{{ site.locale | default: 'en-US' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+      :root {
+        --ink: #111;
+        --muted: #666;
+        --line: #e7e7e7;
+        --paper: #fff;
+        --wash: #f7f7f7;
+        --link: #1f5f8b;
+        --max-width: 1180px;
+      }
+
+      * { box-sizing: border-box; }
+
+      html { scroll-behavior: smooth; }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: "Raleway", Arial, sans-serif;
+        font-size: 16px;
+        line-height: 1.8;
+      }
+
+      a {
+        color: var(--link);
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 2px;
+      }
+
+      a:hover { color: #0b3855; }
+
+      .site-nav {
+        position: fixed;
+        z-index: 10;
+        top: 0;
+        width: 100%;
+        background: rgba(255, 255, 255, .97);
+        border-bottom: 1px solid var(--line);
+        box-shadow: 0 1px 6px rgba(0, 0, 0, .08);
+      }
+
+      .nav-inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: var(--max-width);
+        min-height: 58px;
+        margin: 0 auto;
+        padding: 0 28px;
+      }
+
+      .brand,
+      .nav-link {
+        display: inline-flex;
+        align-items: center;
+        min-height: 58px;
+        color: var(--ink);
+        font-size: 12px;
+        font-weight: 600;
+        letter-spacing: .12em;
+        text-decoration: none;
+      }
+
+      .brand { letter-spacing: .16em; }
+
+      .nav-links {
+        display: flex;
+        align-items: stretch;
+        gap: 4px;
+      }
+
+      .nav-link { padding: 0 14px; }
+      .nav-link:hover { background: #f1f1f1; color: var(--ink); }
+      .nav-link[aria-current="page"] { background: #f4f4f4; }
+
+      main {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 112px 28px 80px;
+      }
+
+      .page-title {
+        margin: 0;
+        text-align: center;
+        font-size: clamp(2rem, 4vw, 2.8rem);
+        font-weight: 400;
+        letter-spacing: .08em;
+        line-height: 1.2;
+      }
+
+      .intro-grid {
+        display: grid;
+        grid-template-columns: minmax(280px, .92fr) minmax(0, 1.08fr);
+        gap: clamp(42px, 7vw, 88px);
+        align-items: start;
+        margin-top: 68px;
+      }
+
+      .profile {
+        padding: 0 12px;
+        text-align: center;
+      }
+
+      .profile-photo {
+        display: block;
+        width: min(100%, 360px);
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
+        margin: 0 auto 24px;
+        border-radius: 2px;
+      }
+
+      .profile-name {
+        margin: 0;
+        font-size: 1.15rem;
+        font-weight: 500;
+        letter-spacing: .08em;
+      }
+
+      .profile-role {
+        margin: 4px 0 18px;
+        color: var(--muted);
+        font-size: .95rem;
+      }
+
+      .profile-contact {
+        margin: 22px auto 0;
+        padding-top: 18px;
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: .92rem;
+      }
+
+      .profile-contact p { margin: 4px 0; }
+      .profile-contact a { color: var(--muted); }
+
+      .content {
+        max-width: 650px;
+        padding-top: 2px;
+      }
+
+      .content p {
+        margin: 0 0 1.35em;
+        font-size: 1.08rem;
+      }
+
+      .content p:last-child { margin-bottom: 0; }
+
+      .site-footer {
+        max-width: var(--max-width);
+        margin: 0 auto;
+        padding: 26px 28px 38px;
+        border-top: 1px solid var(--line);
+        color: #888;
+        font-size: .8rem;
+        text-align: center;
+      }
+
+      @media (max-width: 760px) {
+        .nav-inner { padding: 0 16px; }
+        .brand { font-size: 11px; }
+        .nav-link { padding: 0 8px; font-size: 10px; }
+        main { padding: 94px 20px 56px; }
+        .intro-grid {
+          grid-template-columns: 1fr;
+          gap: 38px;
+          margin-top: 44px;
+        }
+        .content { max-width: none; }
+        .content p { font-size: 1rem; }
+        .site-footer { padding-left: 20px; padding-right: 20px; }
+      }
+
+      @media (max-width: 420px) {
+        .nav-inner { min-height: 52px; }
+        .brand, .nav-link { min-height: 52px; }
+        .brand { max-width: 150px; line-height: 1.2; }
+        .nav-link { padding: 0 5px; letter-spacing: .08em; }
+      }
+    </style>
+  </head>
+  <body id="home">
+    <header class="site-nav">
+      <div class="nav-inner">
+        <a class="brand" href="#home">SHENGZE DING</a>
+        <nav class="nav-links" aria-label="Primary navigation">
+          <a class="nav-link" href="#home" aria-current="page">HOME</a>
+          {% if site.author.email %}<a class="nav-link" href="mailto:{{ site.author.email }}">EMAIL</a>{% endif %}
+          {% if site.author.linkedin %}<a class="nav-link" href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LINKEDIN</a>{% endif %}
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <h1 class="page-title">SHENGZE DING</h1>
+
+      <section class="intro-grid" aria-label="About Shengze Ding">
+        <aside class="profile">
+          <img class="profile-photo" src="{{ '/images/avatar-new.jpg' | relative_url }}" alt="{{ site.author.name | strip_html }}">
+          <h2 class="profile-name">{{ site.author.name | split: '<br>' | first }}</h2>
+          <p class="profile-role">{{ site.author.bio }}</p>
+          <div class="profile-contact">
+            {% if site.author.location %}<p>{{ site.author.location }}</p>{% endif %}
+            {% if site.author.email %}<p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>{% endif %}
+            {% if site.author.linkedin %}<p><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a></p>{% endif %}
+          </div>
+        </aside>
+
+        <article class="content">
+          {{ content }}
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">{{ site.title }} · Academic personal website</footer>
+  </body>
+</html>
