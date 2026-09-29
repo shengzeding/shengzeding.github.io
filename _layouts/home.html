@@ -136,16 +136,14 @@
       }
 
       .profile-contact {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 4px 14px;
-        margin: 14px auto 0;
+        margin: 22px auto 0;
+        padding-top: 18px;
+        border-top: 1px solid var(--line);
         color: var(--muted);
-        font-size: .88rem;
+        font-size: .92rem;
       }
 
-      .profile-contact p { margin: 0; }
+      .profile-contact p { margin: 4px 0; }
       .profile-contact a { color: var(--muted); }
 
       .content {
@@ -211,7 +209,6 @@
           <h2 class="profile-name">{{ site.author.name | split: '<br>' | first }}</h2>
           <p class="profile-role">{{ site.author.bio }}</p>
           <div class="profile-contact">
-            {% if site.author.location %}<p>{{ site.author.location }}</p>{% endif %}
             {% if site.author.email %}<p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>{% endif %}
             {% if site.author.linkedin %}<p><a href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a></p>{% endif %}
           </div>
