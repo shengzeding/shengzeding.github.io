@@ -118,6 +118,7 @@
         width: min(100%, 300px);
         aspect-ratio: 1 / 1;
         object-fit: cover;
+        object-position: 62% center;
         margin: 0 auto 24px;
         border-radius: 2px;
       }
@@ -213,7 +214,7 @@
 
       <section class="intro-grid" aria-label="About Shengze Ding">
         <aside class="profile">
-          <img class="profile-photo" src="{{ '/images/avatar-new.jpg' | relative_url }}" alt="{{ site.author.name | strip_html }}">
+          <img class="profile-photo" src="{{ '/images/avatar-new.webp' | relative_url }}" alt="{{ site.author.name | strip_html }}">
           <h2 class="profile-name">{{ site.author.name | split: '<br>' | first }}</h2>
           <p class="profile-role">{{ site.author.bio }}</p>
           <div class="profile-contact">
