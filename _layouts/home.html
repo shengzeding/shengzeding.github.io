@@ -115,7 +115,7 @@
 
       .profile-photo {
         display: block;
-        width: min(100%, 360px);
+        width: min(100%, 300px);
         aspect-ratio: 1 / 1;
         object-fit: cover;
         margin: 0 auto 24px;
@@ -158,6 +158,13 @@
 
       .content p:last-child { margin-bottom: 0; }
 
+      .content .update-note {
+        margin-top: 42px;
+        color: var(--muted);
+        font-size: .9rem;
+        font-style: italic;
+      }
+
       .site-footer {
         max-width: var(--max-width);
         margin: 0 auto;
@@ -197,8 +204,6 @@
         <a class="brand" href="#home">SHENGZE DING</a>
         <nav class="nav-links" aria-label="Primary navigation">
           <a class="nav-link" href="#home" aria-current="page">HOME</a>
-          {% if site.author.email %}<a class="nav-link" href="mailto:{{ site.author.email }}">EMAIL</a>{% endif %}
-          {% if site.author.linkedin %}<a class="nav-link" href="https://www.linkedin.com/in/{{ site.author.linkedin }}">LINKEDIN</a>{% endif %}
         </nav>
       </div>
     </header>
@@ -220,10 +225,11 @@
 
         <article class="content">
           {{ content }}
+          <p class="update-note">More to be updated in the future...</p>
         </article>
       </section>
     </main>
 
-    <footer class="site-footer">{{ site.title }} · Academic personal website</footer>
+    <footer class="site-footer">Last updated Sep 2026</footer>
   </body>
 </html>
