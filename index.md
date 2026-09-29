@@ -5,7 +5,6 @@ title: ""
 permalink: /
 ---
 
-## Welcome
 
 I am a first year PhD student in the Sibley School of Mechanical and Aerospace Engineering at **Cornell University**.
 
