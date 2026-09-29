@@ -28,16 +28,34 @@
   }
 
   /* 左上角标题手写体 */
+  html {
+    border-top: 4px solid #b31b1b;
+  }
+  
+  .masthead {
+    border-bottom: 1px solid #ece8e4;
+  }
+  
   .masthead__menu-item--lg a,
   .masthead__menu-item--lg,
   .site-title a,
   .site-title {
     font-family: 'Lora', Georgia, serif !important;
+    color: #373332 !important;
     font-size: 1.25em !important;
     font-style: italic;
     font-weight: 500 !important;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.025em;
     text-decoration: none !important;
+  }
+  
+  .masthead__menu-item--lg a:hover {
+    color: #b31b1b !important;
+  }
+
+  .masthead__menu-item--lg a::before,
+  .masthead__menu-item--lg a::after {
+    display: none !important;
   }
 
   /* 针对移动端微调标题大小 */
@@ -88,4 +106,102 @@
     margin-top: 20px !important;
   }
 </style>
+
+<style>
+  /* Cornell 红色顶边 */
+  html {
+    border-top: 4px solid #b31b1b;
+  }
+
+  /* 标题栏 */
+  .masthead {
+    border-bottom: 1px solid #ece8e4;
+  }
+
+  .masthead__menu-item--lg a,
+  .masthead__menu-item--lg,
+  .site-title a,
+  .site-title {
+    font-family: 'Lora', Georgia, serif !important;
+    color: #373332 !important;
+    font-size: 1.25em !important;
+    font-style: italic;
+    font-weight: 500 !important;
+    letter-spacing: -0.025em;
+    text-decoration: none !important;
+  }
+
+  .masthead__menu-item--lg a:hover {
+    color: #b31b1b !important;
+  }
+
+  /* 缩短正文行宽，提高可读性 */
+  .page__inner-wrap {
+    max-width: 800px;
+  }
+
+  .page__content {
+    color: #484747;
+    font-size: 1.04rem;
+    line-height: 1.72;
+    letter-spacing: 0;
+  }
+
+  .page__content p {
+    margin-bottom: 1.3em;
+  }
+
+  .page__content strong {
+    color: #383534;
+    font-weight: 600 !important;
+  }
+
+  /* 左侧名片 */
+  .author-card {
+    padding: 0.9rem;
+    background: #fcfaf7;
+    border: 1px solid #e7e1dc;
+    border-top: 3px solid #b31b1b;
+  }
+
+  .author-card .author__avatar {
+    margin-bottom: 1rem;
+  }
+
+  .author-card .author__avatar img {
+    border: 0 !important;
+    border-radius: 3px !important;
+    box-shadow: none !important;
+  }
+
+  .author-card .author__content {
+    margin-top: 0 !important;
+  }
+
+  .author-card .author__name {
+    margin-bottom: 0.35rem;
+    color: #302d2c;
+    font-weight: 600 !important;
+    line-height: 1.15;
+  }
+
+  .author-card .author__bio {
+    margin-top: 0.55rem;
+    color: #6e6764;
+    font-size: 0.92rem;
+  }
+
+  .author-card .author__urls {
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+    border-top: 1px solid #e7e1dc;
+  }
+
+  .author-card .author__urls a:hover,
+  .author-card .author__urls a:hover i {
+    color: #b31b1b !important;
+  }
+</style>
+
+
 <!-- end custom head snippets -->
