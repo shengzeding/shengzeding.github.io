@@ -122,6 +122,19 @@
         border-radius: 2px;
       }
 
+      .profile-name {
+        margin: 0;
+        font-size: 1.15rem;
+        font-weight: 500;
+        letter-spacing: .08em;
+      }
+
+      .profile-role {
+        margin: 4px 0 18px;
+        color: var(--muted);
+        font-size: .95rem;
+      }
+
       .profile-contact {
         margin: 22px auto 0;
         padding-top: 18px;
@@ -193,6 +206,8 @@
       <section class="intro-grid" aria-label="About Shengze Ding">
         <aside class="profile">
           <img class="profile-photo" src="{{ '/images/avatar_newv2.jpg' | relative_url }}" alt="{{ site.author.name | strip_html }}">
+          <h2 class="profile-name">{{ site.author.name | split: '<br>' | first }}</h2>
+          <p class="profile-role">{{ site.author.bio }}</p>
           <div class="profile-contact">
             {% if site.author.location %}<p>{{ site.author.location }}</p>{% endif %}
             {% if site.author.email %}<p><a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a></p>{% endif %}
