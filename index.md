@@ -8,7 +8,7 @@ permalink: /
 
 I am a first-year Ph.D. student in the Sibley School of Mechanical and Aerospace Engineering at **Cornell University**.
 
-My research focuses on **scientific machine learning and computational methods for complex physical systems**. I am particularly interested in developing data-driven and statistical approaches, and integrating them with physics-based models, numerical solvers, and differentiable simulation.
+My research focuses on **scientific machine learning** and **computational methods** for complex physical systems. I am particularly interested in developing data-driven and statistical approaches, and integrating them with physics-based models, numerical solvers, and differentiable simulation.
 
 My interests span applications in fluid, energy, and biomedical systems.
 
