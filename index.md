@@ -12,7 +12,7 @@ My research focuses on **scientific machine learning and computational methods f
 
 My interests span applications in fluid, energy, and biomedical systems.
 
-Prior to joining Cornell, I completed my undergraduate training at **Shanghai Jiao Tong University**, where I pursued dual degrees in engineering and mathematics.
+Prior to joining Cornell, I completed my undergraduate training at **Shanghai Jiao Tong University**, earning dual degrees in engineering and mathematics.
 
 
 
