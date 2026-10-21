@@ -16,7 +16,8 @@ author:
 
 # Build settings
 markdown: kramdown
-remote_theme: academicpages/academicpages.github.io
+# The homepage uses our self-contained _layouts/home.html and inline styles.
+# Do not import remote theme assets that require a newer Sass compiler.
 plugins:
   - jekyll-paginate
   - jekyll-gist
